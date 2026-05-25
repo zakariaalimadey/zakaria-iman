@@ -1,0 +1,362 @@
+nav{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+    transition: 0.3;  
+    box-sizing: border-box;
+    box-shadow: 15px; 
+    background-color: rgb(30, 0, 31);
+    color: rgb(9, 8, 8);
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border:4px 10px;
+}
+nav:hover{
+    transform: translate(-5px);
+}
+a{
+   text-decoration: none;
+   padding: 45px;
+   transition: 0,3;
+   color: white; 
+   transition: 0.3;
+}
+a:hover{
+    transform: translate(-5px);
+    color:darkblue;
+    transition: o.3;
+}
+body{
+    background-color: lightslategray;
+}
+#main-header{
+    background-image: url("./images\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 20px;
+    width:100%;
+}
+#main-header:hover{
+    transform: translate(-7px);
+}
+#main-header h1{
+    font-size: 38px;
+    color: darkorange;
+    transition: 0.3;
+}
+#main-header h1:hover{
+    transform: translate(-8px);
+    color: blueviolet;
+}
+#main-header p{
+    color: bisque;
+    font-size: 20px;
+}
+#main-header p:hover{
+    transform: translate(-7px);
+}
+.hero h2{
+    height: 40px;
+    background-color: rgb(127, 234, 255);
+    border-radius: 35px;
+    margin: auto;
+    width: 50%;
+    transition: 0.8;
+    font-size: 18px;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    animation: typing 4s steps(30) infinite alternate-reverse;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+.hero h2:hover{
+    transform: translate(-5px);
+    color: rgb(165, 163, 42);
+}
+
+.hero p{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+.features ul{
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 35px;
+    margin: auto;
+    width: 50%;
+    transition: 0.8;
+    font-size: 18px;
+}
+.features ul:hover{
+    transform: scale(1.25);
+    color: rgb(115, 70, 15);
+}
+.features li:first-child{
+    background-color: orange;
+    border-radius: 35px;
+}
+.features li:first-child:hover{
+    transform: translate(-8px);
+}
+.features li:last-child{
+    background-color: yellow;
+    border-radius: 15px;
+}
+.features li:nth-child(3){
+    background-color: bisque;
+    border-radius: 15px;
+}
+.features li:nth-child(2){
+    background-color: azure;
+    border-radius: 15px;
+}
+button{
+   background: orange;
+   color: white;
+   padding: 12px 25px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: 0.5s ease;
+   display: block;
+   margin: 20px auto;
+   animation: pulse 2s infinite;
+}
+
+button:hover{
+   transform: scale(1.1);
+   background: darkred;
+}
+
+@keyframes pulse{
+   0%{
+      transform: scale(1.05);
+   }
+
+   50%{
+      transform: scale(1.25);
+   }
+
+   100%{
+      transform: scale(1);
+   }
+}
+footer{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 5px;
+    transition: 0.3;
+}
+footer:hover{
+    transform: translate(-5px);
+}
+.shoes{
+    color: aliceblue;
+    font-size: 25px;
+    background-color: lightseagreen;
+    width: 24%;
+    box-sizing: border-box;
+    height: 250px;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-style: dotted ;
+    width bottom: 10%;
+}
+.shoes:hover{
+    transform: translate(-8px);
+    transition: 0.3;
+    color: lightgreen;
+}
+.shoes p{
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: darkblue;
+}
+.my-shoe{
+    background-image: url("./images\ \(4\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1100px;
+    padding: 20px;
+    width:100%;
+}
+.zaki h1{
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 10px red;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.zaki ul{
+    height: 100px;
+    background-color:lightgreen;
+    border-radius: 35px;
+    margin: auto;
+    width: 30%;
+    transition: 0.8;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-style: dashed;
+    box-sizing: border-box;
+    box-shadow: 2px 5px yellow;
+    animation:pulse 2s infinite ;
+    margin-bottom: 40px;
+}
+@keyframes pulse{
+   0%{
+      transform: scale(1.05);
+   }
+
+   50%{
+      transform: scale(1.25);
+   }
+
+   100%{
+      transform: scale(1);
+   }
+}
+.products h2{
+    font-size: 23px;
+    color: yellow;
+    background-color: black;
+    width:20%;
+    border-radius: 15px;
+    box-shadow:2px 4px white;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    border: 10px 20px red solid;
+    transition: 0.3;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.products h2:hover{
+    transform: translate(5px);
+    color: white;
+}
+.card{
+    border-radius: 5px 10px red solid ;
+    color: blue;
+    background-color: beige;
+    border: none;
+    box-sizing: border-box;
+    height: 100px;
+    width: 20%;
+    float: right;
+    margin-right: 45px;
+}
+.card:hover{
+    transform: translate(8px);
+    background-color: yellow;
+    color: black;
+}
+.card h4{
+    background-color: white;
+    font: bold;
+    font-size: 20px;
+    width: 30%;
+    border-radius: 15px;
+    text-align: center;
+}
+.card h4:hover{
+    transform:translate(7px);
+    color:black ;
+    background-color: red;
+}
+.reviews{
+    border-radius: 5px 10px;
+    color: rgb(6, 6, 5);
+    background-color: rgb(220, 245, 240);
+    border: none;
+    box-sizing: border-box;
+    height: 130px;
+    width: 25%;
+    margin-right: 25px;
+    transition: 0.3;
+}
+.reviews:hover{
+    transform: translate(-5px);
+    color: brown;
+}
+
+.reviews h2{
+    border-radius: 4px 10px;
+    background-color: aqua;
+}
+.reviews h3{
+    background-color: white;
+    font: bold;
+    font-size: 20px;
+    width: 40%;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+.offer h2{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: azure;
+    border-radius: 5px 10px;
+    width: 20%;
+    margin-top: 90px;
+}
+.offer ul{
+    border-radius: 5px 10px red solid ;
+    color: black;
+    background-color: rgb(192, 192, 34);
+    border: none;
+    box-sizing: border-box;
+    width: 15%;
+}
+.contact{
+    color: rgb(10, 12, 10);
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 4px 10px;
+    background-color: rgb(238, 230, 230);
+    width:20%;
+}
+.contact h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: blanchedalmond;
+    box-sizing: border-box;
+    border-radius: 4px 10px;
+    background-color: black;
+    width: 60%;
+}
+.contact h2:hover{
+    transform: translate(-8px);
+    color: brown;
+}
+.phones{
+    background-color: aquamarine;
+    border-radius: 5px 10px;
+}
+.watches{
+    background-color: lightskyblue;
+}
